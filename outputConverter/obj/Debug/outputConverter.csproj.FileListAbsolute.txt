@@ -1,0 +1,7 @@
+C:\Users\VSk\OneDrive\MFF UK\MGR\1. ročník\Domácí úkoly\Seminář z umělé inteligence II\outputConverter\outputConverter\obj\Debug\outputConverter.csprojResolveAssemblyReference.cache
+C:\Users\VSk\OneDrive\MFF UK\MGR\1. ročník\Domácí úkoly\Seminář z umělé inteligence II\outputConverter\outputConverter\obj\Debug\outputConverter.csproj.CoreCompileInputs.cache
+C:\Users\VSk\OneDrive\MFF UK\MGR\1. ročník\Domácí úkoly\Seminář z umělé inteligence II\outputConverter\outputConverter\bin\Debug\outputConverter.exe.config
+C:\Users\VSk\OneDrive\MFF UK\MGR\1. ročník\Domácí úkoly\Seminář z umělé inteligence II\outputConverter\outputConverter\bin\Debug\outputConverter.exe
+C:\Users\VSk\OneDrive\MFF UK\MGR\1. ročník\Domácí úkoly\Seminář z umělé inteligence II\outputConverter\outputConverter\bin\Debug\outputConverter.pdb
+C:\Users\VSk\OneDrive\MFF UK\MGR\1. ročník\Domácí úkoly\Seminář z umělé inteligence II\outputConverter\outputConverter\obj\Debug\outputConverter.exe
+C:\Users\VSk\OneDrive\MFF UK\MGR\1. ročník\Domácí úkoly\Seminář z umělé inteligence II\outputConverter\outputConverter\obj\Debug\outputConverter.pdb

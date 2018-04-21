@@ -1,0 +1,167 @@
+Computing the single agent shortest path for all agents...
+Solving Problem instance:0 Grid Name:Random Grid #Agents:2, GridCells:25, #Obstacles:20
+-----------------Basic-CBS/(A*/SIC) with first fit adoption max expansions: 1 choosing the first conflict in CBS nodes-----------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|                                                                 |                                0                                |                                1                                |
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|                                0                                |                               0,0                               |                               4,0                               |
+|                                1                                |                               0,1                               |                               4,1                               |
+|                                2                                |                               0,2                               |                               4,2                               |
+|                                3                                |                               1,2                               |                               3,2                               |
+|                                4                                |                               2,2                               |                               2,2                               |
+|                                5                                |                               2,3                               |                               2,3                               |
+|                                6                                |                               2,4                               |                               2,4                               |
+|                                7                                |                               3,4                               |                               1,4                               |
+|                                8                                |                               4,4                               |                               0,4                               |
+|                                9                                |                               4,5                               |                               0,5                               |
+|                               10                                |                               4,6                               |                               0,6                               |
+|                               11                                |                               4,7                               |                               0,7                               |
+|                               12                                |                               4,8                               |                               0,8                               |
+|                               13                                |                               4,8                               |                               1,8                               |
+|                               14                                |                               4,8                               |                               2,8                               |
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Agent 1 Collinding Agent 0 At Time 4 Bias 0 Location (2,2)
+Agent 1 Collinding Agent 0 At Time 5 Bias 0 Location (2,3)
+Agent 1 Collinding Agent 0 At Time 6 Bias 0 Location (2,4)
+
+Agent 0 Collinding Agent 1 At Time 4 Bias 0 Location (2,2)
+Agent 0 Collinding Agent 1 At Time 5 Bias 0 Location (2,3)
+Agent 0 Collinding Agent 1 At Time 6 Bias 0 Location (2,4)
+Agent 1 Collinding Agent 0 At Time 4 Bias 0 Location (2,2)
+Agent 1 Collinding Agent 0 At Time 5 Bias 0 Location (2,3)
+Agent 1 Collinding Agent 0 At Time 6 Bias 0 Location (2,4)
+Total cost: 27
+Solution depth: 1
+
+Time In milliseconds: 128,6084
+Total Expanded Nodes (High-Level): 1
+Total Generated Nodes (High-Level): 3
+Closed List Hits (High-Level): 0
+Partial Expansions (High-Level): 0
+Adoptions (High-Level): 0
+Pruning successes (High-Level): 0
+Pruning failures (High-Level): 0
+Nodes expanded with goal cost (High-Level): 0
+Look ahead nodes created (High-Level): 0
+Conflicts Bypassed With Adoption (High-Level): 0
+Cardinal Conflicts Splits (High-Level): 1
+Semi-Cardinal Conflicts Splits (High-Level): 0
+Non-Cardinal Conflicts Splits (High-Level): 0
+MDDs Built (High-Level): 0
+Nodes Pushed Back (High-Level): 0
+Restarts (High-Level): 0
+Max Group Size (High-Level): 1
+EPEA*/SIC Accumulated Expanded Nodes (Low-Level): 0
+EPEA*/SIC Accumulated Generated Nodes (Low-Level): 0
+EPEA*/SIC Accumulated Reopened Nodes (Low-Level): 0
+EPEA*/SIC Accumulated BPMX boosts (Low-Level): 0
+EPEA*/SIC Accumulated Closed list hits (Low-Level): 0
+EPEA*/SIC Accumulated Reopened Nodes With Old H (Low-Level): 0
+EPEA*/SIC Accumulated No Reopen H Updates (Low-Level): 0
+EPEA*/SIC Accumulated Max expansion delay (Low-Level): 0
+EPEA*/SIC Accumulated Quick insertions: 0
+EPEA*/SIC Accumulated Quick insertions cancelled: 0
+EPEA*/SIC Accumulated Total Expanded Full States (Low-Level): 0
+A*/SIC Accumulated Expanded Nodes (Low-Level): 28
+A*/SIC Accumulated Generated Nodes (Low-Level): 86
+A*/SIC Accumulated Reopened Nodes (Low-Level): 0
+A*/SIC Accumulated BPMX boosts (Low-Level): 0
+A*/SIC Accumulated Closed list hits (Low-Level): 0
+A*/SIC Accumulated Reopened Nodes With Old H (Low-Level): 0
+A*/SIC Accumulated No Reopen H Updates (Low-Level): 0
+A*/SIC Accumulated Max expansion delay (Low-Level): 0
+A*/SIC Accumulated Quick insertions: 28
+A*/SIC Accumulated Quick insertions cancelled: 4
+Basic-CBS/(A*/SIC) with first fit adoption max expansions: 1 choosing the first conflict in CBS nodes Quick insertions: 0
+Basic-CBS/(A*/SIC) with first fit adoption max expansions: 1 choosing the first conflict in CBS nodes Quick insertions cancelled: 0
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|                                                                 |                                0                                |                                1                                |
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|                                0                                |                               0,0                               |                               4,0                               |
+|                                1                                |                               0,1                               |                               4,1                               |
+|                                2                                |                               0,2                               |                               4,2                               |
+|                                3                                |                               1,2                               |                               3,2                               |
+|                                4                                |                               1,2                               |                               2,2                               |
+|                                5                                |                               2,2                               |                               2,3                               |
+|                                6                                |                               2,3                               |                               2,4                               |
+|                                7                                |                               2,4                               |                               1,4                               |
+|                                8                                |                               3,4                               |                               0,4                               |
+|                                9                                |                               4,4                               |                               0,5                               |
+|                               10                                |                               4,5                               |                               0,6                               |
+|                               11                                |                               4,6                               |                               0,7                               |
+|                               12                                |                               4,7                               |                               0,8                               |
+|                               13                                |                               4,8                               |                               1,8                               |
+|                               14                                |                               4,8                               |                               2,8                               |
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+A valid bias plan!
++SUCCESS+ (:
+***** EXECUTE    Policy = MCP  *****
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|                                                                 |                                0                                |                                1                                |
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|                                0                                |                               0,0                               |                               4,0                               |
+|                                1                                |                               0,1                               |                               4,1                               |
+|                                2                                |                               0,2                               |                               4,2                               |
+|                                3                                |                               1,2                               |                               3,2                               |
+|                                4                                |                               1,2                               |                               2,2                               |
+|                                5                                |                               2,2                               |                               2,3                               |
+|                                6                                |                               2,3                               |                               2,4                               |
+|                                7                                |                               2,4                               |                               1,4                               |
+|                                8                                |                               3,4                               |                               0,4                               |
+|                                9                                |                               4,4                               |                               0,5                               |
+|                               10                                |                               4,5                               |                               0,6                               |
+|                               11                                |                               4,6                               |                               0,7                               |
+|                               12                                |                               4,7                               |                               0,8                               |
+|                               13                                |                               4,8                               |                               1,8                               |
+|                               14                                |                               4,8                               |                               2,8                               |
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Remove: Agent 0  at time +0  from loc 0,0
+Remove: Agent 1  at time +0  from loc 4,0
+Remove: Agent 0  at time +1  from loc 0,1
+Remove: Agent 1  at time +1  from loc 4,1
+Remove: Agent 0  at time +2  from loc 0,2
+Remove: Agent 1  at time +2  from loc 4,2
+Remove: Agent 1  at time +3  from loc 3,2
+Remove: Agent 0  at time +4  from loc 1,2
+Remove: Agent 1  at time +4  from loc 2,2
+Remove: Agent 0  at time +5  from loc 2,2
+Remove: Agent 1  at time +5  from loc 2,3
+Remove: Agent 0  at time +6  from loc 2,3
+Remove: Agent 1  at time +6  from loc 2,4
+Remove: Agent 0  at time +7  from loc 2,4
+Remove: Agent 1  at time +7  from loc 1,4
+Remove: Agent 0  at time +8  from loc 3,4
+Remove: Agent 1  at time +8  from loc 0,4
+Remove: Agent 0  at time +9  from loc 4,4
+Remove: Agent 1  at time +9  from loc 0,5
+Remove: Agent 0  at time +10  from loc 4,5
+Remove: Agent 1  at time +10  from loc 0,6
+Remove: Agent 0  at time +11  from loc 4,6
+Remove: Agent 1  at time +11  from loc 0,7
+Remove: Agent 0  at time +12  from loc 4,7
+Remove: Agent 1  at time +12  from loc 0,8
+Remove: Agent 1  at time +13  from loc 1,8
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|                                                                 |                                0                                |                                1                                |
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|                                0                                |                               0,0                               |                               4,0                               |
+|                                1                                |                               0,1                               |                               4,1                               |
+|                                2                                |                               0,2                               |                               4,2                               |
+|                                3                                |                               1,2                               |                               3,2                               |
+|                                4                                |                               1,2                               |                               2,2                               |
+|                                5                                |                               2,2                               |                               2,3                               |
+|                                6                                |                               2,3                               |                               2,4                               |
+|                                7                                |                               2,4                               |                               1,4                               |
+|                                8                                |                               3,4                               |                               0,4                               |
+|                                9                                |                               4,4                               |                               0,5                               |
+|                               10                                |                               4,5                               |                               0,6                               |
+|                               11                                |                               4,6                               |                               0,7                               |
+|                               12                                |                               4,7                               |                               0,8                               |
+|                               13                                |                               4,8                               |                               1,8                               |
+|                               14                                |                               4,8                               |                               2,8                               |
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+A valid execution!
+
+*********************THE END**************************
